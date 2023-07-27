@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Button from '../components/Button/Button';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -61,6 +62,8 @@ export default function Home() {
             Find in-depth information about Next.js features and API.
           </p>
         </a>
+
+        <Button text="Like Me!"></Button>
 
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
